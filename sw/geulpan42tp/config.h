@@ -10,8 +10,12 @@
 // Guelpan42
 // #define PS2_CLOCK_PIN   GP3
 // #define PS2_DATA_PIN    GP2
+// Piantor UV
 #define PS2_CLOCK_PIN   GP27
 #define PS2_DATA_PIN    GP26
+// Piantor UV44
+// #define PS2_CLOCK_PIN   GP29
+// #define PS2_DATA_PIN    GP28
 
 // scrolling control. default value 2
 // #define PS2_MOUSE_SCROLL_DIVISOR_H 24
@@ -67,6 +71,11 @@
     { GP22, GP20, GP10, GP14, GP9, GP8}, \
     { GP21, GP19, GP6, GP7, GP13, GP12}, \
     { GP17, GP18, GP16, NO_PIN, NO_PIN, NO_PIN} \
+    // Piantor UV44
+    // { GP5, GP4, GP11, GP15, GP3, GP2}, \
+    // { GP22, GP20, GP10, GP14, GP9, GP8}, \
+    // { GP21, GP19, GP6, GP7, GP13, GP12}, \
+    // { GP17, GP18, GP16, GP27, NO_PIN, NO_PIN} \
 }
 
 // Right - PCB & hanwired
@@ -86,5 +95,10 @@
     { GP8, GP9, GP14, GP10, GP20, GP22}, \
     { GP12, GP13, GP7, GP6, GP19, GP21}, \
     { GP16, GP18, GP17, NO_PIN, NO_PIN, NO_PIN} \
+    // Piantor UV44
+    // { GP2, GP3, GP15, GP11, GP4, GP5}, \
+    // { GP8, GP9, GP14, GP10, GP20, GP22}, \
+    // { GP12, GP13, GP7, GP6, GP19, GP21}, \
+    // { GP27, GP16, GP18, GP17, NO_PIN, NO_PIN} \
 }
 
