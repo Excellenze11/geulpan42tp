@@ -59,7 +59,7 @@
     // {GP10, GP11, GP12, GP13, GP14, GP15}, \
     // {GP16, GP17, GP18, GP19, GP20, GP21}, \
     // {GP22, GP26, GP27, GP29, NO_PIN, GP28}, \
-    // Piantor Classic
+    // Piantor Classic & UV
     { GP5, GP4, GP11, GP15, GP3, GP2}, \
     { GP22, GP20, GP10, GP14, GP9, GP8}, \
     { GP21, GP19, GP6, GP7, GP13, GP12}, \
@@ -74,9 +74,14 @@
     // {GP21, GP20, GP19, GP18, GP17, GP16}, \
     // {GP27, GP26, GP22, GP28, NO_PIN, GP29}, \
     // Piantor Classic
-    { GP22, GP21, GP2, GP5, GP8, GP11}, \
-    { GP20, GP19, GP3, GP6, GP9, GP12}, \
-    { GP18, GP17, GP4, GP7, GP10, GP13}, \
-    { GP15, GP14, GP16, NO_PIN, NO_PIN, NO_PIN} \
+    // { GP22, GP21, GP2, GP5, GP8, GP11}, \
+    // { GP20, GP19, GP3, GP6, GP9, GP12}, \
+    // { GP18, GP17, GP4, GP7, GP10, GP13}, \
+    // { GP15, GP14, GP16, NO_PIN, NO_PIN, NO_PIN} \
+    // Piantor UV
+    { GP2, GP3, GP15, GP11, GP4, GP5}, \
+    { GP8, GP9, GP14, GP10, GP20, GP22}, \
+    { GP12, GP13, GP7, GP6, GP19, GP21}, \
+    { GP16, GP18, GP17, NO_PIN, NO_PIN, NO_PIN} \
 }
 
