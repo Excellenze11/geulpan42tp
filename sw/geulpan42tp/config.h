@@ -7,8 +7,11 @@
 
 // trackpoint
 #define PS2_PIO_USE_PIO1
-#define PS2_CLOCK_PIN   GP3
-#define PS2_DATA_PIN    GP2
+// Guelpan42
+// #define PS2_CLOCK_PIN   GP3
+// #define PS2_DATA_PIN    GP2
+#define PS2_CLOCK_PIN   GP27
+#define PS2_DATA_PIN    GP26
 
 // scrolling control. default value 2
 // #define PS2_MOUSE_SCROLL_DIVISOR_H 24
